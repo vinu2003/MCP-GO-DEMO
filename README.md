@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # mcp-go-demo
 
 A minimal MCP server using the official modelcontextprotocol/go-sdk.
@@ -98,5 +99,4 @@ mcp-go-demo/
 Note the structure: the reusable server lives in an importable package
 (`demoserver`), while `server.go` at the root is a thin `package main` wrapper.
 Go won't let one `package main` import another, so sharing `New()` between the
-binary, the client, and the tests requires it to live in a non-main package —
-a small but real Go design lesson.
+binary, the client, and the tests requires it to live in a non-main package.
