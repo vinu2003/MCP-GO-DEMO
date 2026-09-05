@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # mcp-go-demo
 
 A minimal MCP server using the official modelcontextprotocol/go-sdk.
