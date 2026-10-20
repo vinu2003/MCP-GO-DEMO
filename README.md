@@ -58,7 +58,7 @@ vinu@vinu-spectre:~/MCP_GO_DEMO$
 ## Use it in Claude Desktop
 
 Go servers are compiled binaries, so you point Claude Desktop at the built
-executable rather than a `python` command:
+executable.
 
 ```bash
 go build -o mcp-go-demo .
